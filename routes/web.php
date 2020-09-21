@@ -15,3 +15,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [WebsiteController::class, 'index']);
+
+Route::get('/album', [WebsiteController::class, 'album']);

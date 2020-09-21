@@ -13,4 +13,12 @@ class WebsiteController extends Controller
     {
         return view('homepage');
     }
+
+    /**
+     * @return View
+     */
+    public function album(): View
+    {
+        return view('album');
+    }
 }
