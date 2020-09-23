@@ -1,14 +1,13 @@
 <!Doctype HTML>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
 
-    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+    @include('layouts.partials.head')
 
 </head>
 <body>
-
+    @include('layouts.partials.nav')
     <h1>Hello World !</h1>
-
+    @include('layouts.partials.footer')
 </body>
 </html>
